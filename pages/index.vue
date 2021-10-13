@@ -2,10 +2,13 @@
 	<div class="w-full">
 		<section class="text-gray-600 body-font pattern bg-yellow-100">
 			<div class="container px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
+				<h1 class="title-font font-medium text-3xl text-gray-900">
+					Mangalik Social Welfare Society
+				</h1>
+			</div>
+
+			<div class="container px-5 pb-10 mx-auto flex flex-wrap items-center">
 				<div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-					<h1 class="title-font font-medium text-3xl text-gray-900">
-						Mangalik Social Welfare Society
-					</h1>
 					<p class="leading-relaxed mt-4 text-justify">
 						The <b>Mangalik Social Welfare Society (MSWS)</b> has completed its second formal years and marching for the third formal years of its existence for extending welfare and development services for the people of North Tripura district.  However, the Society was emerged with another name, <b>Bharatiya Health Mission (BHM)</b> but considering similar names of one central government, the same was declined and was registered as <b>Mangalik Social Welfare Society (MSWS)</b> on <b>6th April 2017</b>. Since inception, the MSWS is extending its welfare and development services for the needy poor people in one hand and also organizing its efforts for its organizational development.
 					</p>
