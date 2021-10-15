@@ -1,49 +1,124 @@
 <template>
 	<div class="w-full">
-		<section class="text-gray-600 body-font bg-yellow-100">
-			<div class="container px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
-				<div class="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-					<h1 class="title-font font-medium text-3xl text-gray-900">
-						Mangalik Social Welfare Society [Governance]
-					</h1>
-					<p class="leading-relaxed mt-4 text-justify">
-						The <b>Mangalik Social Welfare Society (MSWS)</b> has completed its second formal years and marching for the third formal years of its existence for extending welfare and development services for the people of North Tripura district.  However, the Society was emerged with another name, <b>Bharatiya Health Mission (BHM)</b> but considering similar names of one central government, the same was declined and was registered as <b>Mangalik Social Welfare Society (MSWS)</b> on <b>6th April 2017</b>. Since inception, the MSWS is extending its welfare and development services for the needy poor people in one hand and also organizing its efforts for its organizational development.
-					</p>
-					<div class="flex flex-wrap w-full text-justify">
-						<p class="w-full leading-relaxed text-gray-500">
-							This year it has also taken initiatives to make its community clinic little larger and even the village panchayat Bargul has also extends its financial support for the same.
+		<div class="h-screen">
+			<section class="text-gray-600 body-font bg-yellow-100">
+				<div class="container px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
+					<div>
+						<h1 class="title-font font-medium text-3xl text-gray-900">
+							Governance
+						</h1>
+						<p class="leading-relaxed mt-4 text-justify">
+							The Mangalik Social Welfare Society is governed by a two-tire management system to manage its policy and daily affairs. The said two tire systems are:
 						</p>
 					</div>
-
-				</div>
-				<div class="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
-
-				</div>
-			</div>
-		</section>
-
-		<section class="text-gray-600 body-font py-12">
-			<div class="container px-5 mx-auto flex flex-wrap items-center">
-				<div class="flex flex-wrap w-full text-justify">
-					<div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
-						<div class="flex flex-wrap w-full text-justify pb-6">
-							<p class="w-full leading-relaxed text-gray-500">
-								The MSWS has adopted suitable strategies for implementation of its development interventions and to make it more transparent, the MSWS has divided its programs and activities in five sectoral programs viz.:
+					<div class="container px-5 mx-auto flex flex-wrap items-start">
+						<div class="lg:w-1/2 md:w-1/2 p-3 pt-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								General Body
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The General Body of the Society is the highest authority to decide all the policy matters for the Society
 							</p>
 						</div>
-					</div>
-					<div class="lg:flex-grow md:w-1/2 lg:pl-8 md:pl-8 flex flex-col md:items-start md:text-left items-center text-center">
-						<div class="flex flex-wrap w-full text-justify">
-							<p class="w-full leading-relaxed text-gray-500 mb-2">
-								The MSWS has also spelled out its, vision, mission and strategy as well as to complete necessary registrations to be a successful voluntary organization for the upliftment of the poor and needy people of the area.
+
+						<div class="lg:w-1/2 md:w-1/2 p-3 pt-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								Executive Committee
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The Executive Committee of the Society takes necessary decisions for proper execution/implementation and management of its human resources also being looked after by the Executive Committee of the Society
 							</p>
 						</div>
 					</div>
 				</div>
-			</div>
-		</section>
+			</section>
 
-		<Footer/>
+			<section class="text-gray-600 body-font py-12">
+				<div class="container px-5 mx-auto">
+					<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+						Members of Executive Committee
+					</h3>
+					<p class="leading-relaxed text-justify my-2 font-medium">
+						The Executive Committee of the Society for the year 2018-2019 was as follows
+					</p>
+
+					<div class="flex flex-col pt-4">
+						<div class="overflow-x-auto">
+						<div class="align-middle inline-block min-w-full sm:px-6 lg:px-8">
+							<div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+							<table class="divide-y divide-gray-200 table-fixed">
+								<thead class="bg-gray-50">
+								<tr>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Sl.
+									</th>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Name & Address
+									</th>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Designation
+									</th>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Age
+									</th>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Education
+									</th>
+									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
+										Occupation
+									</th>
+								</tr>
+								</thead>
+
+								<tbody class="bg-white divide-y divide-gray-200">
+								<tr
+									:id="index"
+									v-for="(member, index) in members"
+								>
+									<td class="px-6 py-4 whitespace-nowrap">
+										<div class="text-sm text-gray-900">{{ index + 1 }}</div>
+									</td>
+									<td class="px-6 py-4 whitespace-wrap w-1/4">
+										<div class="flex items-center">
+											<div>
+											<div class="text-sm font-medium text-gray-900">
+												{{ member.name }}
+											</div>
+											<div class="text-sm text-gray-500 hidden md:block">
+												{{ member.address }}
+											</div>
+											</div>
+										</div>
+									</td>
+									<td class="px-6 py-4 whitespace-nowrap">
+										<span class="px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-green-100 text-green-800">
+											{{ member.position }}
+										</span>
+									</td>
+									<td class="px-6 py-4 whitespace-nowrap">
+										<div class="text-sm text-gray-900">{{ member.age }}</div>
+									</td>
+									<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+										<div class="text-sm text-gray-900">{{ member.education }}</div>
+									</td>
+									<td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+										<div class="text-sm text-gray-900">{{ member.occupation }}</div>
+									</td>
+								</tr>
+
+								</tbody>
+							</table>
+							</div>
+						</div>
+						</div>
+					</div>
+
+
+				</div>
+			</section>
+		</div>
+
+		<!-- <Footer/> -->
 	</div>
 </template>
 
@@ -53,6 +128,89 @@ import Footer from '@/components/footer/footer.vue'
 export default {
 	name: 'About-Us',
 	data: () => ({
+		members: [
+			{
+				age: '48',
+				name: 'Akhil Kanti Malakar',
+				address: 'Vill.: & PO: Sarala, Block: Kadamtala, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799261',
+				position: 'President',
+				education: 'Madhyamik',
+				occupation: 'Business',
+
+			},
+			{
+				age: '50',
+				name: 'Manu Chakraborty',
+				address: 'Vill.: South Nayapara, PO: Dharmanagar, Block/NP: Dharmanagar, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799250',
+				position: 'Vice President',
+				education: 'Graduate',
+				occupation: 'Graduate',
+
+			},
+			{
+				age: '23',
+				name: 'Dr. Anku Malakar',
+				address: 'Vill.: Krishanapur, PO: Dharmanagar, Block: Yuvarajnagar, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799253',
+				position: 'Secretary',
+				education: 'Diploma in Civil, Diploma in Homeo',
+				occupation: 'Homeo Practitioner',
+
+			},
+			{
+				age: '57',
+				name: 'Dr. Sanjay Dey',
+				address: 'Vill.: Dewanpasha, Bargul, PO: Dewanpasha, Block: Yuvarajnagar, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799261',
+				position: 'Assistant Secretary',
+				education: 'Graduate, Nutritionists',
+				occupation: 'Homeo Practitioner',
+
+			},
+			{
+				age: '70',
+				name: 'Satyendra Chandra Nath',
+				address: 'Vill.:Radhapur PO: Radhapur, Block: Yuvarajnagar, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799253',
+				position: 'Treasurer',
+				education: 'I.A. Passed',
+				occupation: 'Retd Person',
+
+			},
+			{
+				age: '34',
+				name: 'Dr. Bijaya Chakraborty',
+				address: 'Vill.: South Nayapara, PO: Rajbbari, Block/MC: Dharmanagar MC, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799253',
+				position: 'Executive Member',
+				education: 'DMDS',
+				occupation: 'Homeo Practitioner',
+
+			},
+			{
+				age: '44',
+				name: 'Chaitali Bhattacharjee',
+				address: 'Vill.: Pratyekray, PO Pratyekray, Block: Kadamtala, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799261',
+				position: 'Executive Member',
+				education: 'Graduate',
+				occupation: 'House Wife',
+
+			},
+			{
+				age: '35',
+				name: 'Mrinal Kanti Chakraborty',
+				address: 'Vill.: Thana Road, PO: Dhaarmanagar, Block/MC: Dharmanagar MC, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799250',
+				position: 'Executive Member',
+				education: 'Madhyamik(ITI-Electrical)',
+				occupation: 'Business',
+
+			},
+			{
+				age: '27',
+				name: 'Anungka Malakar',
+				address: 'Vill.:Radhapur PO: Radhapur, Block: Yuvarajnagar, Sub-Division: Dharmanagar, District: Tripura North, TRIPURA-799253',
+				position: 'President',
+				education: 'XII',
+				occupation: 'House Wife',
+
+			},
+		]
 	}),
 	components: {
 		Footer
