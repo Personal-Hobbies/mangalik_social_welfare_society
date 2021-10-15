@@ -44,7 +44,8 @@ export default {
 	axios: {},
 
 	tailwindcss: {
-		viewer: false
+		viewer: false,
+		configPath: 'tailwind.config.js',
 	},
 
 	// Build Configuration: https://go.nuxtjs.dev/config-build
