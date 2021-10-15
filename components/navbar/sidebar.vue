@@ -1,5 +1,5 @@
 <template>
-	<div class="h-screen shadow-xl select-none">
+	<div class="h-screen shadow-xl select-none sm:hidden">
 		<div class="h-full bg-gray-50 overflow-y-auto overflow-x-hidden">
 			<div class="flex items-center justify-start pt-6 ml-8 cursor-pointer">
 				<p class="font-bold dark:text-white text-xl">
@@ -89,7 +89,7 @@ export default {
 				{ name: 'Our mission', icon: 'spark-g', link: '/about-us', active: true },
 				{ name: 'Governance', icon: 'spark-g', link: '/about-us/governance', active: false },
 			]},
-			{ name: 'Organization Structure', icon: 'orgchart-g', link: '/', active: false, submenu: false },
+			{ name: 'Organization Structure', icon: 'orgchart-g', link: '/organization', active: false, submenu: false },
 			{ name: 'Operations', icon: 'policy-g', link: '/', active: false, submenu: false },
 			{ name: 'Intervention', icon: 'document-g', link: '/', active: false, submenu: [
 				{ name: 'Health education program', icon: 'spark-g', link: '/', active: true },
