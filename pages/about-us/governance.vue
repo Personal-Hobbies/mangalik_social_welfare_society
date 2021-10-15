@@ -1,8 +1,8 @@
 <template>
 	<div class="w-full">
-		<div class="h-screen">
+		<div class="min-h-screen">
 			<section class="text-gray-600 body-font bg-yellow-100">
-				<div class="container px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
+				<div class="container px-16 sm:px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
 					<div>
 						<h1 class="title-font font-medium text-3xl text-gray-900">
 							Governance
@@ -11,8 +11,8 @@
 							The Mangalik Social Welfare Society is governed by a two-tire management system to manage its policy and daily affairs. The said two tire systems are:
 						</p>
 					</div>
-					<div class="container px-5 mx-auto flex flex-wrap items-start">
-						<div class="lg:w-1/2 md:w-1/2 p-3 pt-0">
+					<div class="container mx-auto flex flex-wrap items-start">
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
 							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
 								General Body
 							</h3>
@@ -21,7 +21,7 @@
 							</p>
 						</div>
 
-						<div class="lg:w-1/2 md:w-1/2 p-3 pt-0">
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
 							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
 								Executive Committee
 							</h3>
@@ -33,8 +33,8 @@
 				</div>
 			</section>
 
-			<section class="text-gray-600 body-font py-12">
-				<div class="container px-5 mx-auto">
+			<section class="text-gray-600 body-font">
+				<div class="container px-16 sm:px-5 mx-auto">
 					<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
 						Members of Executive Committee
 					</h3>
@@ -44,9 +44,9 @@
 
 					<div class="flex flex-col pt-4">
 						<div class="overflow-x-auto">
-						<div class="align-middle inline-block min-w-full sm:px-6 lg:px-8">
-							<div class="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
-							<table class="divide-y divide-gray-200 table-fixed">
+						<div class="align-middle inline-block min-w-full sm:px-0 px-8">
+							<div class="shadow overflow-hidden border-b border-gray-200 rounded-lg">
+							<table class="divide-y divide-gray-200">
 								<thead class="bg-gray-50">
 								<tr>
 									<th scope="col" class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">
@@ -78,13 +78,13 @@
 									<td class="px-6 py-4 whitespace-nowrap">
 										<div class="text-sm text-gray-900">{{ index + 1 }}</div>
 									</td>
-									<td class="px-6 py-4 whitespace-wrap w-1/4">
+									<td class="px-6 py-4 whitespace-wrap w-1/4 sm:w-full">
 										<div class="flex items-center">
 											<div>
 											<div class="text-sm font-medium text-gray-900">
 												{{ member.name }}
 											</div>
-											<div class="text-sm text-gray-500 hidden md:block">
+											<div class="text-sm text-gray-500 sm:hidden">
 												{{ member.address }}
 											</div>
 											</div>
@@ -113,12 +113,40 @@
 						</div>
 					</div>
 
+					<div class="container py-4 mx-auto flex flex-wrap items-start">
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								Advisory Board
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The Mangalik Social Welfare Society has also formed an advisory Board based on the requirements of advices required for successful and impact oriented execution of its programs and projects. The Board also provides necessary inputs to executive committee, general body for selection, preparation and submission of proposals for receiving desired grants
+							</p>
+						</div>
+
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								Program Implementation Committee
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The human resource of the MSWS has formed a project implementation Committee (PIC) for insuring a smooth and successful time-bound execution of its project and programs
+							</p>
+						</div>
+
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								Human Resource Development
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The human resource of the MSWS is of voluntary nature. All the volunteers are working for the Society understanding this is a part of their duty towards the community/society. Volunteers are comprises of trained, technical and non-technical persons to carry out the activities for the Society
+							</p>
+						</div>
+					</div>
 
 				</div>
 			</section>
 		</div>
 
-		<!-- <Footer/> -->
+		<Footer/>
 	</div>
 </template>
 
