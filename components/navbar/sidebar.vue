@@ -15,7 +15,7 @@
 					>
 						<li
 							@click="change_active(element.name, index, 'novalue')"
-							:class="element.active ? 'w-full text-gray-800 dark:text-white flex items-center pl-6 p-2 transition-colors duration-200 justify-start border-l-4 border-blue-500 bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center pl-6 p-2 transition-colors duration-200 justify-start hover:text-gray-800 border-l-4 border-transparent cursor-pointer hover:bg-gray-100 rounded-lg'"
+							:class="element.active ? 'w-full text-gray-800 flex items-center pl-6 p-2 transition-colors duration-200 justify-start border-l-4 border-blue-500 bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center pl-6 p-2 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg'"
 						>
 							<span class="text-left">
 								<svg class="w-4 h-4 fill-current text-grey-800">
@@ -52,7 +52,7 @@
 									>
 										<li
 											@click="change_active(sub_ele.name, index, subindex)"
-											:class="sub_ele.active ? 'w-full text-gray-800 dark:text-white flex items-center p-2 pl-3 transition-colors duration-200 justify-start bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center p-2 pl-3 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-100'"
+											:class="sub_ele.active ? 'w-full text-gray-800 flex items-center p-2 pl-3 transition-colors duration-200 justify-start bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center p-2 pl-3 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-100'"
 										>
 												<span class="text-left">
 													<svg class="w-4 h-4 fill-current text-grey-800">
@@ -70,7 +70,6 @@
 							</div>
 						</div>
 					</nuxt-link>
-
 				</ul>
 			</nav>
 		</div>
@@ -89,7 +88,6 @@ export default {
 				{ name: 'Our mission', icon: 'spark-g', link: '/about-us', active: true },
 				{ name: 'Governance', icon: 'spark-g', link: '/about-us/governance', active: false },
 			]},
-			{ name: 'Organization Structure', icon: 'orgchart-g', link: '/organization', active: false, submenu: false },
 			{ name: 'Operations', icon: 'policy-g', link: '/', active: false, submenu: false },
 			{ name: 'Intervention', icon: 'document-g', link: '/', active: false, submenu: [
 				{ name: 'Health education program', icon: 'spark-g', link: '/', active: true },
