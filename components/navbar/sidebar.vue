@@ -1,8 +1,8 @@
 <template>
 	<div class="h-screen shadow-xl select-none sm:hidden">
-		<div class="h-full bg-gray-50 overflow-y-auto overflow-x-hidden">
+		<div class="h-full bg-gray-100 overflow-y-auto overflow-x-hidden">
 			<div class="flex items-center justify-start pt-6 ml-8 cursor-pointer">
-				<p class="font-bold dark:text-white text-xl">
+				<p class="font-bold text-xl">
 					Mangalik Social Welfare Society [MSWS]
 				</p>
 			</div>
@@ -15,7 +15,7 @@
 					>
 						<li
 							@click="change_active(element.name, index, 'novalue')"
-							:class="element.active ? 'w-full text-gray-800 flex items-center pl-6 p-2 transition-colors duration-200 justify-start border-l-4 border-blue-500 bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center pl-6 p-2 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-100 rounded-lg'"
+							:class="element.active ? 'w-full text-gray-800 flex items-center pl-6 p-2 transition-colors duration-200 justify-start border-l-4 border-blue-500 bg-gradient-to-r to-gray-200 from-blue-100 cursor-default my-1' : 'w-full text-gray-400 flex items-center pl-6 p-2 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-200 my-1'"
 						>
 							<span class="text-left">
 								<svg class="w-4 h-4 fill-current text-grey-800">
@@ -52,7 +52,7 @@
 									>
 										<li
 											@click="change_active(sub_ele.name, index, subindex)"
-											:class="sub_ele.active ? 'w-full text-gray-800 flex items-center p-2 pl-3 transition-colors duration-200 justify-start bg-gradient-to-r to-white from-blue-100 cursor-default' : 'w-full text-gray-400 flex items-center p-2 pl-3 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-100'"
+											:class="sub_ele.active ? 'w-full text-gray-800 flex items-center p-2 pl-3 transition-colors duration-200 justify-start bg-gradient-to-r to-gray-200 from-blue-100 cursor-default my-1' : 'w-full text-gray-400 flex items-center p-2 pl-3 transition-colors duration-200 justify-start hover:text-gray-800 cursor-pointer hover:bg-gray-200 my-1'"
 										>
 												<span class="text-left">
 													<svg class="w-4 h-4 fill-current text-grey-800">
@@ -88,15 +88,14 @@ export default {
 				{ name: 'Our mission', icon: 'spark-g', link: '/about-us', active: true },
 				{ name: 'Governance', icon: 'spark-g', link: '/about-us/governance', active: false },
 			]},
-			{ name: 'Operations', icon: 'policy-g', link: '/', active: false, submenu: false },
-			{ name: 'Intervention', icon: 'document-g', link: '/', active: false, submenu: [
-				{ name: 'Health education program', icon: 'spark-g', link: '/', active: true },
+			{ name: 'Intervention', icon: 'document-g', link: '/intervention/health-education', active: false, submenu: [
+				{ name: 'Health education program', icon: 'spark-g', link: '/intervention/health-education', active: true },
 				{ name: 'Health program', icon: 'spark-g', link: '/', active: false },
 				{ name: 'Environment program', icon: 'spark-g', link: '/', active: false },
 				{ name: 'Livelihood program', icon: 'spark-g', link: '/', active: false },
 				{ name: 'Community Development program', icon: 'spark-g', link: '/', active: false },
 			]},
-			{ name: 'Future Initiatives', icon: 'gears-g', link: '/', active: false, submenu: false },
+			{ name: 'Future Initiatives', icon: 'gears-g', link: '/future-initiatives', active: false, submenu: false },
 			{ name: 'Gallery', icon: 'cards-g', link: '/', active: false, submenu: [
 				{ name: 'Health education program', icon: 'spark-g', link: '/', active: true },
 				{ name: 'Health program', icon: 'spark-g', link: '/', active: false },
@@ -104,8 +103,8 @@ export default {
 				{ name: 'Livelihood program', icon: 'spark-g', link: '/', active: false },
 				{ name: 'Community Development program', icon: 'spark-g', link: '/', active: false },
 			]},
-			{ name: 'Join us', icon: 'talk-g', link: '/', active: false, submenu: false },
-			{ name: 'Contact', icon: 'phone-call-g', link: '/', active: false, submenu: false },
+			{ name: 'Join us', icon: 'talk-g', link: '/join-us', active: false, submenu: false },
+			{ name: 'Contact', icon: 'phone-call-g', link: '/contact', active: false, submenu: false },
 		]
 	}),
 	components: {
