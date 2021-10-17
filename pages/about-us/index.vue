@@ -1,6 +1,6 @@
 <template>
 	<div class="w-full">
-		<div class="min-w-screen">
+		<div class="min-h-screen">
 			<section class="text-gray-600 body-font bg-indigo-100">
 				<div class="container px-16 sm:px-5 pt-24 pb-10 mx-auto flex flex-wrap items-center">
 					<h1 class="title-font font-medium text-3xl text-gray-900">
