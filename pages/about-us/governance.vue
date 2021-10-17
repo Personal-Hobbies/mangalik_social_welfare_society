@@ -187,6 +187,22 @@
 								The human resource of the MSWS is of voluntary nature. All the volunteers are working for the Society understanding this is a part of their duty towards the community/society. Volunteers are comprises of trained, technical and non-technical persons to carry out the activities for the Society
 							</p>
 						</div>
+
+						<div class="w-1/2 sm:w-full p-3 sm:p-0">
+							<h3 class="title-font font-medium text-lg text-gray-900 mt-4">
+								Operations
+							</h3>
+							<p class="leading-relaxed text-justify">
+								The legal entity of the MSWS permits is to operate or initiate all its welfare and development activities in the state of Tripura but lack of required development resources, the MSWS is presently organizing its development operations in eight (8) R. D. Blocks of two Sub-Divisions namely:
+							</p>
+							<ul class="list-disc pl-8">
+								<li>Kadamtala</li>
+								<li>Kanchanpur Sub-Divisions of North Tripura district</li>
+							</ul>
+							<p>
+								Further, based on available resources, the MSWS may increase its operational coverage in other parts of state of Tripura.
+							</p>
+						</div>
 					</div>
 
 				</div>
@@ -201,7 +217,7 @@
 import Footer from '@/components/footer/footer.vue'
 
 export default {
-	name: 'About-Us',
+	name: 'Governance',
 	data: () => ({
 		members: [
 			{
