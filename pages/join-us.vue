@@ -13,7 +13,7 @@
 						<p class="leading-relaxed mt-4 text-justify">
 							<ul class="list-disc">
 								<li>
-									Man/Woman who subscribe to the aims and objects of this Society are eligible for membership provided he/she pledges to adhere to the aims and objects of the Society and to pay Rs.100/-(Rupees one hundred) only as admission fee (Not Refundable) and Monthly subscription of Rs.30/- (thirty) only
+									Man/Woman who subscribe to the aims and objects of this Society are eligible for membership provided he/she pledges to adhere to the aims and objects of the Society and to pay ₹100/- (Rupees one hundred) only as admission fee (Not Refundable) and Monthly subscription of ₹30/- (thirty) only
 								</li>
 								<li>
 									Members to be enrolled to this society after being proposed and seconded by existing members with the consent of at least 2/3" (two/third) of the members of the Executive Committee of the Society

@@ -11,10 +11,13 @@
 				<div class="container px-16 sm:px-5 pb-10 mx-auto flex flex-wrap items-center">
 					<div class="w-3/5 sm:w-full">
 						<p class="leading-relaxed mt-4 text-justify">
-							The <b>Mangalik Social Welfare Society (MSWS)</b> has completed its second formal years and marching for the third formal years of its existence for extending welfare and development services for the people of North Tripura district.  However, the Society was emerged with another name, <b>Bharatiya Health Mission (BHM)</b> but considering similar names of one central government, the same was declined and was registered as <b>Mangalik Social Welfare Society (MSWS)</b> on <b>6th April 2017</b>. Since inception, the MSWS is extending its welfare and development services for the needy poor people in one hand and also organizing its efforts for its organizational development.
+							<b>Mangalik Social Welfare Society (MSWS)</b> has started its developmental journey in 2016 by the hands of a group of educated persons convinced about welfare and development of fellow persons to bring total change in the society. Initially it has started it journey with a different name but when the initiatives of the group tried to cover more area and people, the said group was registered as MSWS under Societies Act 1860 on 06/04/2017 and since then it has completed its four years development services with its various legal entities.
+						</p>
+						<p class="leading-relaxed mt-4 text-justify">
+							During its formal development journey, it has not only organizes various social welfare and developmental interventions but has also gather rich experiences to deal with the problems of common people, dis-advantage groups and marginal people.  These experiences has guided MSWS to focus and get engaged in serving the needy poor people and introduce various welfare and developmental initiatives for their social, economic and sustainable livelihoods development.
 						</p>
 						<p class="leading-relaxed mt-2 text-justify">
-							The services of the MSWS has not only helped the needy poor persons but also convinced the common persons to come forward to participate in its welfare and developmental services, including donating land for construction of office building, community clinic/dispensary to service poor patients using three types of treatment namely:
+							However, to extend better health services, MSWS has introduced a community clinic at Bargul to reduce health problems of the poor patients both at the clinic and by organizing specialized health camps for extends free treatment and provide free medicines to all patients. MSWS conducts health camps and provides three (3) different types of treatments namely
 						</p>
 						<div class="flex flex-wrap items-start">
 							<div class="w-1/3 p-4 pl-0 sm:w-full sm:p-2">
@@ -49,12 +52,6 @@
 							</div>
 						</div>
 
-						<div class="flex flex-wrap w-full text-justify">
-							<p class="w-full leading-relaxed text-gray-500">
-								This year it has also taken initiatives to make its community clinic little larger and even the village panchayat Bargul has also extends its financial support for the same.
-							</p>
-						</div>
-
 					</div>
 					<div class="w-2/6 bg-gray-100 rounded-lg p-8 flex flex-col ml-auto sm:w-full mt-10">
 
@@ -67,7 +64,7 @@
 					<div class="w-1/2 sm:w-full p-3 sm:p-0">
 						<div class="flex flex-wrap w-full text-justify pb-6">
 							<p class="w-full leading-relaxed text-gray-500">
-								The MSWS has adopted suitable strategies for implementation of its development interventions and to make it more transparent, the MSWS has divided its programs and activities in five sectoral programs viz.:
+								MSWS has started concentrating for the development of children, youths, and adolescents.  Similarly, it has also started focusing towards empowerment of the men and women of its operational areas. However, to organize its development interventions MSWS is adopted five (5) sectoral programs and activities namely
 							</p>
 						</div>
 
@@ -94,13 +91,16 @@
 					<div class="w-1/2 sm:w-full p-3 sm:p-0 sm:mt-4">
 						<div class="text-justify">
 							<p class="w-full leading-relaxed text-gray-500 mb-2">
-								The MSWS has also spelled out its, vision, mission and strategy as well as to complete necessary registrations to be a successful voluntary organization for the upliftment of the poor and needy people of the area.
+								More details on each of these sectoral programs and activities organized during the year 2020-21 are placed inside this annual report together with other organizational details and summary of last two years annual audited accounts to have complete understanding about the MSWS and how it extending its dedicated services for total empowerment.
 							</p>
 							<p class="w-full leading-relaxed text-gray-500 mb-2">
-								Since, the execution of the development interventions require development resources, the MSWS has slowly above to convince two resource institutions namely: the Nehru Yuva Kendra (NYK) and the Village Panchayats has extended their grants-in-aid for implementation of their targeted programs. However, the MSWS has also approached various departments, ministries and resource agencies to establishment of community hospital, child care institution and special child care agency. Further, it has forwarded its proposal for establishment of an exclusive institution for child care and protection and final decision awaited as the 17th Lok Sabha election held at the end of the year.
+								The focus of the development interventions of MSWS are mainly towards health sector by considering the needs of having a fit and healthy body either to study or to work to support their respective families. Therefore, educating younger generation has got priority with awareness generation activities supported by cleanliness drives and planting of trees to have clan and green environment in our surrounding areas.  Further, considering the needs of the people, it has also started organizing skills trainings and thereby assist the trained population for the production process to have sustainable livelihood options.
 							</p>
 							<p class="w-full leading-relaxed text-gray-500 mb-2">
-								Therefore, the MSWS has uses all its’ available resources for its selected five sectoral programs and activities and also interested to mobilize resources from the community as well as decided to mobilize external resources using the provisions of Corporate Social Responsibility (CSR) from various companies including Oil & Natural Gas Corporation Ltd. (ONGCL), Tripura Assets, which has decided to be approached during 2019-2020. But the MSWS is also trying to organize waste control initiatives namely: Solid and Bio-medical waste management with the sponsorship of the local medical and related departments.
+								The local panchayats, district administration are also supportive towards extending their supports and financial assistances. MSWS is also implementing an exclusive government sponsored program called Open shelter for girls by opening home named ‘Matri Aloy’ from February, 2020. To have more coverage of the children, it has already approached to concerned authorities to start a ChildLine Project and an Ayush Hospital at Dharmanagar.
+							</p>
+							<p class="w-full leading-relaxed text-gray-500 mb-2">
+								Considering the requirements of medical services in the remote corners of North Tripura district, MSWS have also approached to Finnovation in mid-2020 for mobilization of CSR funds for an innovative health project for the people residing in remote ADC areas.
 							</p>
 						</div>
 					</div>
@@ -119,11 +119,11 @@ export default {
 	name: 'Index',
 	data: () => ({
 		intervention: [
-			'Health education programs',
+			'Health Education programs',
 			'Health programs',
 			'Environment programs',
 			'Livelihood programs',
-			'Community development programs',
+			'Community Development programs',
 		]
 	}),
 	components: {
