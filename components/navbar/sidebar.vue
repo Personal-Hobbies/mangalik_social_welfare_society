@@ -88,6 +88,7 @@ export default {
 				{ name: 'Our mission', icon: 'spark-g', link: '/about-us', active: true },
 				{ name: 'Governance', icon: 'spark-g', link: '/about-us/governance', active: false },
 			]},
+			{ name: 'Operations', icon: 'policy-g', link: '/operations', active: false, submenu: false },
 			{ name: 'Intervention', icon: 'document-g', link: '/intervention/health-education', active: false, submenu: [
 				{ name: 'Health education program', icon: 'spark-g', link: '/intervention/health-education', active: true },
 				{ name: 'Health program', icon: 'spark-g', link: '/', active: false },
